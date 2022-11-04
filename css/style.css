@@ -132,6 +132,10 @@ text-decoration: line-through ;
 .card:hover .imgHover {
     display: block;
 }
+.btn.hearth:hover   {
+    color: red;
+   
+}
 
 
 
