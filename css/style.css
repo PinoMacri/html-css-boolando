@@ -65,13 +65,63 @@ header {
 }
 .row {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     margin-bottom: 50px;
 }
 .col {
     min-height: 600px;
     width: calc(100% / 3)
-    
+}
+.card {
+    position: relative;
+}
+.imgStandard {
+    width: 100%;
+    display: block;
+}
+.btn {
+    color: white;
+    position: absolute;
+}
+.btn.red {
+    background-color: red;
+    bottom: 50px;
+    font-weight: 600;
+    left: 0;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.btn.green {
+    background-color: green;
+    font-weight: 600;
+    left: 70px;
+    bottom: 50px;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.btn.hearth {
+    background-color: white;
+    right: 0;
+    top: 10px;
+    font-size: 40px;
+    color: black;
+    padding: 5px 15px;
+}
+.priceOk {
+    color: red;
+    font-weight: 600;
+}
+.priceNo {
+text-decoration: line-through ;
+}
+.imgHover {
+    width: 100%;
+    position: absolute;
+    display: none;
+    top: 0;
+}
+.card:hover .imgHover {
+    display: block;
 }
 
 
