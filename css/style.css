@@ -74,6 +74,7 @@ header {
 }
 .card {
     position: relative;
+    cursor: pointer;
 }
 .imgStandard {
     width: 100%;
@@ -95,6 +96,14 @@ header {
     background-color: green;
     font-weight: 600;
     left: 70px;
+    bottom: 50px;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.btn.green.left {
+    background-color: green;
+    font-weight: 600;
+    left: 0px;
     bottom: 50px;
     font-size: 15px;
     padding: 5px 10px;
