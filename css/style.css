@@ -1,0 +1,96 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*HEADER*/
+header {
+    background-color: #FF6900;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.containerHeader {
+    background-color: #FF6900;
+    height: 70px;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+/*UTILITIES*/
+.flex {
+    display: flex;
+    align-items: center;
+}
+.basis {
+    flex-basis: calc(100% / 3);
+}
+/*DIV-MENU*/
+.menu {
+    justify-content: left;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu li {
+    margin-right: 10px;
+}
+/*DIV-LOGO*/
+.logo {
+    justify-content: center;
+}
+.logo img {
+    width: 160px;
+    margin: 0px 10px;
+}
+/*DIV-SHOP&LOGIN*/
+.shopLogin {
+    justify-content: right;
+}
+.shopLogin i {
+    margin-left: 10px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*MAIN*/
+.containerMain {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+.col {
+    min-height: 600px;
+    width: calc(100% / 3)
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div {
+    border: 2px dashed black;
+}
